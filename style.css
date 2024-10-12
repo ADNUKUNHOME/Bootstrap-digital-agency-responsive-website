@@ -217,3 +217,22 @@ body {
     font-weight: 500;
     font-family: sans-serif;
 }
+
+/* social medias */
+
+#social {
+    border: 5px double #a517ba;
+    border-radius: 80px;
+    margin: 20px 10px;
+}
+
+.social img {
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    transition: 0.5s;
+}
+
+.social a:hover img {
+    transform: translateY(-10px);
+}
