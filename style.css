@@ -148,3 +148,37 @@ body {
     border-radius: 20px;
     padding: 5px;
 }
+
+/* about section */
+
+#about 
+{
+    padding: 80px 0;
+    background-color: grey;
+    border-radius: 20px 20px 20px 20px;
+    border: gray;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.about-title {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.about-us ul {
+    padding: 10px 10px;
+}
+
+.about-us ul li {
+    font-weight: 400;
+    padding-left: 0px;
+
+}
+
+.about-image {
+    width: 350px;
+}
+
