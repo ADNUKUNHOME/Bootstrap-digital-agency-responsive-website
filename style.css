@@ -83,3 +83,68 @@ body {
 .wavei {
     width: 100%;
 }
+
+/* service section */
+
+.title {
+    margin-bottom: 60px;
+}
+
+.title::before {
+    content: '';
+    height: 5px;
+    width: 200px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    height: 10px;
+    width: 50px;
+   background-image: linear-gradient(to right, #a517ba, #5f1782) !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(8px);
+}
+
+.services 
+{
+    padding: 20px;
+}
+
+
+.service-image 
+{
+    padding-top: 20px;
+}
+
+#services 
+{
+    padding: 80px 0;
+    background-color: grey;
+    border-radius: 20px 20px 20px 20px;
+    border: gray;
+    margin: 10px;
+    margin-top: 25px;
+}
+.card {
+    background-color: rgba(12, 10, 10, 0.603) !important;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.btn-primary {
+    background-image:linear-gradient(to right, #a517ba, #5f17) !important;
+    border-radius: 20px;
+    padding: 5px;
+}
