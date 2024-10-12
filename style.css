@@ -50,3 +50,36 @@ body {
 .navbar-toggler {
     outline: none !important;
 }
+
+/* banner aria */
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f17);
+    color: white;
+    height: 500px;
+}
+
+.promo-title {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.promo-content {
+    font-size: 18px;
+    font-weight: 500;   
+}
+
+.linked {
+    text-decoration: none;
+    color: #fff ;
+}
+
+.linked:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.wavei {
+    width: 100%;
+}
